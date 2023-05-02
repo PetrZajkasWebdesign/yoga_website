@@ -88,6 +88,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 .links {
@@ -507,13 +508,13 @@ footer .follow svg {
 
 footer .install img {
     margin: 10px 0 15px 0;
-    height: 25%;
-    width: 25%;
+    height: 40px;
+    width: 150px;
 }
 
-footer .install #payments-img-small {
-    width: 30%;
-    height: 18%;
+footer #payments-img-small {
+    width: 180px;
+    height: 25px;
 }
 
 footer .follow svg:hover,
@@ -770,7 +771,16 @@ footer .copyright {
     }
 
     #banner {
-        height: 200px;
+        height: 150px;
+    }
+
+    #banner h1 {
+        font-size: 30px;
+    }
+
+    #banner h5 {
+        font-size: 12px;
+        margin-bottom: 0;
     }
 
     #concentration .concentration-box {
@@ -794,11 +804,11 @@ footer .copyright {
     #blog {
         padding: 100px 20px 0 20px;
     }
-
+    
     #blog .blog-box {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         border-top: 1px solid var(--clr-primary-800);
         padding-top: 20px;
     }
@@ -806,6 +816,11 @@ footer .copyright {
     #blog .blog-details {
         width: 100%;
         margin-right: 0;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin: 0;
     }
 
     #practice .practice-card {
